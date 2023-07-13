@@ -45,3 +45,12 @@ if a + b > c and a + c > b and b + c > a:
     print('面积: %f' % (area))
 else:
     print('不能构成三角形')
+
+"""
+计算偶数100以内偶数之和
+"""
+
+totle = 0
+for i in range(2, 101, 2):
+    totle += i
+print(totle)
